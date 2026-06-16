@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="block-slider">
+        <div class="cont">
+            <div class="block-slider_block1">
+                <h3>Completed projects</h3>
+                <p class="description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families </p>
+                <div class="company__offers">
+
+                    <div class="company__offers__block1">
+
+                        <div class="offers">
+
+                            <span class="item">City:</span>
+                            <span class="text-item actives">Rostov-on-Don LCD admiral</span>
+                            <span class="text-item">Sochi <br>Thieves</span>
+                            <span class="text-item">Rostov-on-Don Patriotic</span>
+
+                        </div>
+                        <div class="offers">
+
+                            <span class="apartment">Apartment area:</span>
+                            <span class="apartment-item actives">81 m2</span>
+                            <span class="apartment-item">105 m2</span>
+                            <span class="apartment-item">93 m2</span>
+
+                        </div>
+                    </div>
+                    <div class="company__offers__block2">
+
+                        <div class="offers">
+
+                            <span class="repair">Repair time:</span>
+                            <span class="repair-time actives">3.5 months</span>
+                            <span class="repair-time">4 months</span>
+                            <span class="repair-time">3 months</span>
+
+                        </div>
+                        <div class="offers">
+
+                            <span class="Cost">Repair Cost:</span>
+                            <span class="repair-cost actives">Upon request</span>
+                            <span class="repair-cost">Upon request</span>
+                            <span class="repair-cost">Upon request</span>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="slider__arrow__dots">
+
+                        <div class="button-prev">
+                            <button id="prev" class="prev-arrow">&#8592;</button>
+                        </div>
+
+                        <div class="dot-cont">
+                            <span class="dot actives" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+
+                        <div class="button-next">
+                            <button id="next" class="next-arrow">&#8594;</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="block-slider_block2">
+                <div class="title">
+                    <span class="title-list actives">Rostov-on-Don, Admiral</span>
+                    <span class="title-list">Sochi Thieves</span>
+                    <span class="title-list">Rostov-on-Don Patriotic</span>
+                </div>
+                <div class="slider_block2">
+                    <img class="frame_media actives" src="images/frame1.jpg" alt="Слайд 1">
+                    <img class="frame_media" src="images/frame2.jpg" alt="Слайд 2">
+                    <img class="frame_media" src="images/frame3.jpg" alt="Слайд 3">  
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>

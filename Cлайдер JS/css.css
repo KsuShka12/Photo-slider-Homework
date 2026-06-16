@@ -1,0 +1,175 @@
+.block-slider {
+    background-color: #131313;
+}
+
+.cont {
+    padding: 140px;
+    display: flex;
+}
+
+.block-slider_block1 {
+    max-height: 600px;
+    margin-top: 45px;
+}
+
+h3 {
+    width: 200px;
+    font-size: 27px;
+    color: #E3B873;
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+p {
+    width: 442px;
+    color: #FFFFFF;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 191%;
+    padding-bottom: 40px;
+}
+
+.company__offers__block1 {
+    display: flex;
+}
+
+.company__offers__block2 {
+    display: flex;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-bottom: 34px;
+
+}
+
+.item {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    padding-bottom: 10px;
+}
+
+.text-item,
+.apartment-item,
+.repair-time,
+.repair-cost {
+    display: none;
+    color: #FFFFFF;
+    width: 100px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 164%;
+}
+
+
+.slider__arrow__dots {
+    display: flex;
+    gap: 20px;
+}
+
+.prev-arrow,
+.next-arrow {
+    background: none;
+    font-size: 40px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.dot-cont {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    
+    background-color: #333; 
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.actives {
+    background-color: #bbb;
+}
+
+.block-slider_block2 {
+    padding-left: 50px;
+
+}
+
+.frame_media {
+    display: none;
+    margin-top: 45px;
+}
+
+
+.text-list {
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 139%;
+    text-transform: uppercase;
+    color: #FFFFFF4D;
+    margin-right: 40px;
+}
+
+.text-list.actives {
+    color: #E3B873;
+}
+
+.frame_media.actives, .text-item.actives, .apartment-item.actives, .repair-time.actives, .repair-cost.actives {
+    display: block;
+}
+
+.apartment {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    padding-bottom: 10px;
+}
+
+.repair {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    padding-bottom: 10px;
+}
+
+.Cost {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    padding-bottom: 10px;
+}
+
+.title-list.actives {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873; 
+}
+
+.title-list {
+    font-family: Yeseva One;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 139%;
+    text-transform: uppercase;
+    color: #FFFFFF4D;
+    margin-right: 40px;
+}
